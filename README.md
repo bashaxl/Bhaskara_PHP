@@ -10,8 +10,8 @@
 > 
 > 1. Enviarlo a la funcion "Bhaskara" en forma de parametros, es decir, bhaskra recibirá a, b y c <br>
 > 2. Estando dentro de la funcion, primero se hace el delta de bhaskara, el cual seria: ( √b²-4ac ). Sin embargo, en esta parte primero hice (b²-4ac) antes de hacer raíz cuadrada, ¿Por qué? Por esta cuestión: <br>
-> - Si delta da 0, significa que no tiene raíces, debido a que no existe raíz cuadrada de 0, por lo que el programa finaliza mostrando un mensaje en pantalla. 
-> - En cambio, si delta da un numero distinto de 0 entonces se hace raíz cuadrada, el resultado se guarda en una variable y se pasa al siguiente paso.
+> - Si delta da un número menor a 0, significa que no tiene raíces, debido a que no existe raíz cuadrada de un número menor a 0, por lo que el programa finaliza mostrando un mensaje en pantalla. 
+> - En cambio, si delta da un numero mayor a 0 entonces se hace raíz cuadrada, el resultado se guarda en una variable y se pasa al siguiente paso.
 > 3. Teniendo el resultado de √b²-4ac, se hace la división de √b²-4ac entre 2a y dicho resultado se guarda en una variable. <br>
 > 4. Por ultimo, teniendo el resultado de ( √b²-4ac / 2a) solo lo sumo y resto por -b, obteniendo los resultados de las raíces.
 > 
@@ -20,9 +20,9 @@
 > The program must take the parameters a, b, and c from the polynomial. These parameters must be entered by the user. Once entered, the program must:
 > 
 > 1. Send it to the "Bhaskara" function in the form of parameters, i.e. bhaskra will receive a, b and c <br>
-> 2. Once inside the function, the bhaskara delta is calculated first, which would be: ( √b²-4ac ). However, in this part I first calculated (b²-4ac) before calculating the square root. Why? For this reason: <br>
-> - If delta gives 0, it means that it has no roots, because there is no square root of 0, so the program ends by displaying a message on the screen.
-> - However, if delta gives a number other than 0, then the square root is taken, the result is saved in a variable and the next step is taken.
+> 2. Once inside the function, the bhaskara delta is calculated first, which would be: ( √b²-4ac ). However, in this part I first calculated (b²-4ac) before calculating the square root. Why? For this reason: <br> 
+> - If delta gives a number less than 0, it means that it has no roots, because there is no square root of a number less than 0, so the program ends by displaying a message on the screen. 
+> - However, if delta gives a number greater than 0 then the square root is taken, the result is saved in a variable and the next step is taken.
 > 3. Having the result of √b²-4ac, the division of √b²-4ac is performed by 2a and said result is saved in a variable. <br>
 > 4. Finally, having the result of (√b²-4ac / 2a) I only add it and subtract by -b, obtaining the results of the roots.
 
