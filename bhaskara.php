@@ -34,8 +34,8 @@
         else {
             $delta= sqrt(floatval($delta));
             $division = $delta / 2 * $a;
-            $raizUno = $division + $b;
-            $raizDos = $division - $b;
+            $raizUno = $division + ($b * -1);
+            $raizDos = $division - ($b * -1);
             echo "Sus raíces son $raizUno y $raizDos";
             }
         }
